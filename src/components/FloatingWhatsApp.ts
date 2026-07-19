@@ -1,33 +1,11 @@
-export function FloatingWhatsApp() {
+export function BackToTop() {
   return `
-    <a
-      href="https://wa.me/6285187770105?text=Halo%20Salacca,%20saya%20tertarik%20dengan%20jasa%20Voice%20Talent%20Anda."
-      target="_blank"
-      rel="noopener noreferrer"
-      class="
-        fixed
-        bottom-6
-        right-6
-        z-50
-        w-16
-        h-16
-        rounded-full
-        bg-green-500
-        flex
-        items-center
-        justify-center
-        shadow-2xl
-        hover:scale-110
-        transition-all
-        duration-300
-      "
-      aria-label="Chat via WhatsApp"
+    <button
+      id="back-to-top"
+      class="fixed bottom-24 right-6 w-12 h-12 bg-amber-400 text-black rounded-full shadow-2xl flex items-center justify-center z-50 hover:scale-110 transition-all duration-300"
+      style="display:none;"
     >
-      <iconify-icon
-        icon="mdi:whatsapp"
-        width="36"
-        class="text-white"
-      ></iconify-icon>
-    </a>
+      ↑
+    </button>
   `;
 }

@@ -13,7 +13,6 @@ export function BackToTop() {
         text-black
         text-2xl
         shadow-xl
-        hidden
         z-50
         hover:scale-110
         transition-all

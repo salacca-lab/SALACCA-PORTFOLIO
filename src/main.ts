@@ -5,8 +5,9 @@ import "iconify-icon";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
-import { BackkToTop } from './components/BackToTop'
+import { BackToTop } from './components/BackToTop'
 import { Loading } from "./components/Loading";
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
@@ -20,6 +21,7 @@ import { Footer } from './components/Footer'
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
  
   ${FloatingWhatsApp()}
+  ${BackToTop()}
   ${Loading()}
   ${Navbar()}
   ${Hero()} 
@@ -36,24 +38,23 @@ AOS.init({
   once: true,
 });
 
-const backToTop = document.getElementById("back-to-top");
+const backToTop = document.getElementById("back-to-top") as HTMLButtonElement;
 
 window.addEventListener("scroll", () => {
-  if (!backToTop) return;
-
-  if (window.scrollY > 300) {
-    backToTop.classList.remove("hidden");
+  if (window.scrollY > 200) {
+    backToTop.style.display = "flex";
   } else {
-    backToTop.classList.add("hidden");
+    backToTop.style.display = "none";
   }
 });
 
-backToTop?.addEventListener("click", () => {
+backToTop.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
     behavior: "smooth",
   });
 });
+
 
 window.addEventListener("load", () => {
   const loading = document.getElementById("loading-screen");
