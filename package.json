@@ -17,6 +17,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
+    "iconify-icon": "^3.0.2",
     "lucide": "^1.25.0",
     "tailwindcss": "^4.3.3"
   }
