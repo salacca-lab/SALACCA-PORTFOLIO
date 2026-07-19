@@ -1,6 +1,7 @@
 
 import './style.css';
 import "iconify-icon";
+import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -16,6 +17,7 @@ import { Footer } from './components/Footer'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
  
+  ${FloatingWhatsApp()}
   ${Loading()}
   ${Navbar()}
   ${Hero()} 

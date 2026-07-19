@@ -17,8 +17,7 @@ export function Contact() {
   <iconify-icon
     icon="mdi:email"
     width="22"
-    class="text-amber-400"
-  ></iconify-icon>
+    class="text-amber-400"></iconify-icon>
 
   <a
     href="mailto:salaccazlcc@email.com"
@@ -32,14 +31,12 @@ export function Contact() {
   <iconify-icon
     icon="mdi:whatsapp"
     width="22"
-    class="text-green-400"
-  ></iconify-icon>
+    class="text-green-400"></iconify-icon>
 
   <a
     href="https://wa.me/6285187770105"
     target="_blank"
-    class="hover:text-green-400"
-  >
+    class="hover:text-green-400">
     +62 851-8777-0105
   </a>
 </p>
@@ -48,15 +45,13 @@ export function Contact() {
   <iconify-icon
     icon="mdi:instagram"
     width="22"
-    class="text-pink-400"
-  ></iconify-icon>
+    class="text-pink-400"></iconify-icon>
 
   <a
     href="https://instagram.com/salacca_zlcc"
     target="_blank"
-    class="hover:text-pink-400"
-  >
-    @salacca
+    class="hover:text-pink-400">
+    @salacca_zlcc
   </a>
 </p>
        
@@ -64,15 +59,13 @@ export function Contact() {
   <iconify-icon
     icon="ic:baseline-tiktok"
     width="22"
-    class="text-white"
-  ></iconify-icon>
+    class="text-white"></iconify-icon>
 
   <a
-    href="https://tiktok.com/@salacca"
+    href="https://tiktok.com/@salaccaa1"
     target="_blank"
-    class="hover:text-white"
-  >
-    @salacca
+    class="hover:text-white">
+    @salaccaa1
   </a>
 </p>
 
@@ -80,21 +73,18 @@ export function Contact() {
   <iconify-icon
     icon="mdi:youtube"
     width="22"
-    class="text-red-500"
-  ></iconify-icon>
+    class="text-red-500"></iconify-icon>
 
   <a
     href="https://youtube.com/@Salacca"
     target="_blank"
-    class="hover:text-red-500"
-  >
+    class="hover:text-red-500">
+  
     Salacca
   </a>
 </p>
 
         </div>
-
-      }
 
     </section>
   `;

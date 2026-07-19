@@ -12,7 +12,7 @@ export function Footer() {
 SALACCA
 </h2>
 
-<p class="text-gray-400 mt-2">
+<p class=" 9text-gray-400 mt-2">
 Professional Voice Artist
 </p>
 
