@@ -6,13 +6,13 @@ export function Footer() {
 
 <div class="flex flex-col md:flex-row justify-between items-center gap-6">
 
-<div>
+<div class="text-center">
 
 <h2 class="text-3xl font-black text-amber-400">
 SALACCA
 </h2>
 
-<p class=" 9text-gray-400 mt-2">
+<p class="text-gray-400 mt-2">
 Professional Voice Artist
 </p>
 
@@ -20,15 +20,26 @@ Professional Voice Artist
 
 <div class="flex gap-5">
 
-<a href="#" class="hover:text-amber-400">
+<a
+  href="https://instagram.com/salacca_zlcc"
+  target="_blank"
+  class="text-gray-300 hover:text-amber-400 transition"
+>
 Instagram
 </a>
 
-<a href="#" class="hover:text-amber-400">
+<a
+  href="https://tiktok.com/@salaccaa1"
+  target="_blank"
+  class="text-gray-300 hover:text-amber-400 transition"
+>
 TikTok
 </a>
 
-<a href="#" class="hover:text-amber-400">
+<a
+  href="#"
+  class="text-gray-300 hover:text-amber-400 transition"
+>
 LinkedIn
 </a>
 
