@@ -129,8 +129,36 @@ Character
 Character Voice
 </h3>
 
+<!-- Card 4 -->
+<div
+class="
+group
+bg-white/5
+backdrop-blur-xl
+border
+border-white/10
+rounded-3xl
+p-8
+transition-all
+duration-500
+hover:-translate-y-3
+hover:border-amber-400
+hover:shadow-[0_0_35px_rgba(251,191,36,0.25)]
+"
+data-aos="zoom-in"
+data-aos-delay="300"
+>
+
+<span class="inline-block px-4 py-1 rounded-full bg-amber-400/20 text-amber-400 text-sm mb-5">
+Breaking News
+</span>
+
+<h3 class="text-2xl font-bold text-white mb-4">
+News Achor
+</h3>
+
 <p class="text-gray-400 leading-7">
-Karakter suara unik untuk animasi, game, dubbing, dan konten kreatif.
+Karakter suara Tegas dan Jelas.
 </p>
 
 <a
