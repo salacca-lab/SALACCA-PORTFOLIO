@@ -21,8 +21,7 @@ export function Contact() {
 
   <a
     href="mailto:salaccazlcc@email.com"
-    class="hover:text-amber-400"
-  >
+    class="hover:text-amber-400">
     salaccazlcc@email.com
   </a>
 </p>
@@ -82,6 +81,7 @@ export function Contact() {
   
     Salacca
   </a>
+  
 </p>
 
         </div>

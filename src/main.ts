@@ -1,10 +1,12 @@
 
 import './style.css';
 import "iconify-icon";
-import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
+import { BackkToTop } from './components/BackToTop'
 import { Loading } from "./components/Loading";
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
@@ -32,6 +34,25 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 AOS.init({
   duration: 1000,
   once: true,
+});
+
+const backToTop = document.getElementById("back-to-top");
+
+window.addEventListener("scroll", () => {
+  if (!backToTop) return;
+
+  if (window.scrollY > 300) {
+    backToTop.classList.remove("hidden");
+  } else {
+    backToTop.classList.add("hidden");
+  }
+});
+
+backToTop?.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 });
 
 window.addEventListener("load", () => {
