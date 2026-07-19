@@ -129,7 +129,20 @@ Character
 Character Voice
 </h3>
 
-<!-- Card 4 -->
+<p class="text-gray-400 leading-7">
+Karakter suara unik untuk animasi, game, dubbing, dan konten kreatif.
+</p>
+
+<a
+href="#audio"
+class="inline-block mt-6 px-5 py-3 rounded-full bg-amber-400 text-black font-semibold hover:scale-105 transition"
+>
+🎧 Listen Demo
+</a>
+
+</div>
+
+<!-- Card 3 -->
 <div
 class="
 group
@@ -150,15 +163,15 @@ data-aos-delay="300"
 >
 
 <span class="inline-block px-4 py-1 rounded-full bg-amber-400/20 text-amber-400 text-sm mb-5">
-Breaking News
+News
 </span>
 
 <h3 class="text-2xl font-bold text-white mb-4">
-News Achor
+News Anchor
 </h3>
 
 <p class="text-gray-400 leading-7">
-Karakter suara Tegas dan Jelas.
+Karakter suara Berkarakter seperti Presenter Profesional
 </p>
 
 <a
