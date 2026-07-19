@@ -6,15 +6,19 @@ export function Footer() {
 
 <div class="flex flex-col md:flex-row justify-between items-center gap-6">
 
-<div class="text-center">
+<div class="flex flex-col items-center gap-6">
 
 <h2 class="text-3xl font-black text-amber-400">
 SALACCA
 </h2>
 
-<p class="text-gray-400 mt-2">
+<p class="text-gray-400">
 Professional Voice Artist
 </p>
+
+<div class="flex gap-5">
+
+</div>
 
 </div>
 
