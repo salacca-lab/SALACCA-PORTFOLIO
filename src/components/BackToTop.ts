@@ -6,21 +6,26 @@ export function BackToTop() {
         fixed
         bottom-24
         right-6
+        hidden
+        z-50
         w-14
         h-14
         rounded-full
-        bg-amber-400
-        text-black
-        text-2xl
+        bg-yellow-400
         shadow-xl
-        z-50
+        flex
+        items-center
+        justify-center
         hover:scale-110
         transition-all
-        duration-300
       "
-      aria-label="Back to top"
     >
-      ↑
+      <iconify-icon
+        icon="mdi:arrow-up"
+        width="28"
+        height="28"
+        class="text-black"
+      ></iconify-icon>
     </button>
   `;
 }
