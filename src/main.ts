@@ -24,6 +24,7 @@ import { Portfolio } from './components/Portfolio'
 import { Audio } from './components/Audio'
 import { FAQ } from './components/FAQ'
 import { Stats } from './components/Stats'
+import { CallToAction } from './components/CallToAction'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 
@@ -73,6 +74,7 @@ setInterval(() => {
   ${Audio()}
   ${FAQ()}
   ${Stats()}
+  ${CallToAction()}
   ${Contact()}
   ${Footer()}
 `;
