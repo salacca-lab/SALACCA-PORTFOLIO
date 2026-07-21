@@ -22,6 +22,7 @@ import { Timeline } from './components/Timeline'
 import { About } from './components/About'
 import { Portfolio } from './components/Portfolio'
 import { Audio } from './components/Audio'
+import { FAQ } from './components/FAQ'
 import { Stats } from './components/Stats'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
@@ -70,6 +71,7 @@ setInterval(() => {
   ${About()}
   ${Portfolio()}
   ${Audio()}
+  ${FAQ()}
   ${Stats()}
   ${Contact()}
   ${Footer()}
