@@ -6,6 +6,7 @@ import "iconify-icon";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import { ScrollProgress } from './components/ScrollProgress'
 import { FloatingWhatsApp } from'./components/FloatingWhatsApp'
 import { BackToTop } from './components/BackToTop'
 import { Loading } from './components/Loading'
@@ -19,7 +20,9 @@ import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
- 
+
+  
+  ${ScrollProgress()}
   ${FloatingWhatsApp()}
   ${BackToTop()}
   ${Loading()}

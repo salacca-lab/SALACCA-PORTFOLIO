@@ -29,3 +29,19 @@ export function BackToTop() {
     </button>
   `;
 }
+
+const progressBar = document.getElementById("scroll-progress");
+
+window.addEventListener("scroll", () => {
+
+  const scrollTop = window.scrollY;
+
+  const height =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+
+  const progress = (scrollTop / height) * 100;
+
+  progressBar!.style.width = progress + "%";
+
+});
