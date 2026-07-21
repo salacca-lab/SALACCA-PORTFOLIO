@@ -6,6 +6,7 @@ import "iconify-icon";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import { FeaturedWorks} from './components/FeaturedWorks'
 import { ScrollProgress } from './components/ScrollProgress'
 import { FloatingWhatsApp } from'./components/FloatingWhatsApp'
 import { BackToTop } from './components/BackToTop'
@@ -46,7 +47,7 @@ setInterval(() => {
 
 }, 2500);
 
-  
+   ${FeaturedWorks()}
   ${ScrollProgress()}
   ${FloatingWhatsApp()}
   ${BackToTop()}
