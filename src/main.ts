@@ -16,6 +16,7 @@ import { Hero } from './components/Hero'
 import { FeaturedWorks } from './components/FeaturedWorks'
 import { Showreel } from './components/Showreel'
 import { Skills } from './components/Skills'
+import { Testimonials } from './components/Testimonials'
 import { About } from './components/About'
 import { Portfolio } from './components/Portfolio'
 import { Audio } from './components/Audio'
@@ -59,8 +60,10 @@ setInterval(() => {
   ${Navbar()}
   ${Hero()} 
   ${FeaturedWorks()}
+  ${Services()} 
   ${Showreel()} 
   ${Skills()}
+  ${Testimonials()}
   ${About()}
   ${Portfolio()}
   ${Audio()}
