@@ -32,7 +32,10 @@ export function Hero() {
         </h1>
 
         <p class="text-yellow-400 text-xl mt-3 font-semibold">
-          Voice Talent • Content Creator
+          Voice Talent 
+          Public Speaker
+          Content Creator
+          Communication Student
         </p>
 
         <p class="text-gray-300 max-w-xl mt-6 leading-8">
