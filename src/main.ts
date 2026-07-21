@@ -8,13 +8,14 @@ import 'aos/dist/aos.css';
 
 
 import { ScrollProgress } from './components/ScrollProgress'
-import { FloatingWhatsApp } from'./components/FloatingWhatsApp'
+import { FloatingWhatsApp } from'../FloatingWhatsApp'
 import { BackToTop } from './components/BackToTop'
 import { Loading } from './components/Loading'
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
 import { FeaturedWorks } from './components/FeaturedWorks'
 import { Showreel } from './components/Showreel'
+import { Skills } from './components/Skills'
 import { About } from './components/About'
 import { Portfolio } from './components/Portfolio'
 import { Audio } from './components/Audio'
@@ -59,6 +60,7 @@ setInterval(() => {
   ${Hero()} 
   ${FeaturedWorks()}
   ${Showreel()} 
+  ${Skills()}
   ${About()}
   ${Portfolio()}
   ${Audio()}
