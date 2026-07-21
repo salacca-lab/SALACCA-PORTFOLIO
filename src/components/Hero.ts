@@ -1,6 +1,12 @@
 export function Hero() {
   return `
-    <section id="hero" class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <section id="hero" class="relative min-h-screen flex flex-col justify-center items-center text-center px-6
+    overflow-hidden">
+
+    <div class="absolute inset-0 -z-10">
+    <div class="absolute top-20 left-20 w-72 h-72 bg-yellow-400/20 blur-[120px] rounded-full"></div>
+    <div class="absolute bottom-20 right-20 w-80 h-80 bg-orange-500/20 blur-[120px] rounded-full"></div>
+    </div>
 
       <img
         src="/salacca.jpeg"

@@ -9,12 +9,10 @@ export function About() {
         </h2>
 
         <p class="text-gray-300 leading-8 text-lg">
-          Halo! Saya <strong>Salacca</strong>, seorang Voice Talent dan
-          Content Creator yang memiliki passion dalam dunia audio,
-          storytelling, dan media digital.
-
-          Saya senang menciptakan karya yang mampu menyampaikan emosi,
-          membangun pengalaman, dan memberikan kesan mendalam bagi audiens.
+          Halo! I'm <strong>Salacca</strong>, A Communication student passionate about
+          <strong>Voice Over</strong> and <strong>Public Speaking </strong>. I believe every 
+          message deserves to be delivered with clarity, emotion, and impact. Through my voice,
+          i help stories, brands, and ideas connect with people.
         </p>
 
       </div>
