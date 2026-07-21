@@ -71,3 +71,28 @@ window.addEventListener("load", () => {
 
   }, 1200);
 });
+
+const typingText = document.getElementById("typing-text");
+
+const texts = [
+  "🎙️ Voice Talent",
+  "🎤 Public Speaker",
+  "🎬 Content Creator",
+  "🎓 Communication Student",
+];
+
+let index = 0;
+
+setInterval(() => {
+  if (!typingText) return;
+
+  index = (index + 1) % texts.length;
+
+  typingText.style.opacity = "0";
+
+  setTimeout(() => {
+    typingText.textContent = texts[index];
+    typingText.style.opacity = "1";
+  }, 300);
+
+}, 2500);
