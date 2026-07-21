@@ -19,12 +19,12 @@ class="w-full"
 controls
 poster="/salacca.jpeg">
 
-<source src="/videos/showreel.mp4" type="video/mp4">
+<source src="/videos/showreel1.mp4" type="video/mp4">
 
 Browser Anda tidak mendukung video.
 
 </video>
-
+n
 </div>
 
 </div>
