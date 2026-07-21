@@ -27,6 +27,7 @@ import { FAQ } from './components/FAQ'
 import { Stats } from './components/Stats'
 import { CallToAction } from './components/CallToAction'
 import { Contact } from './components/Contact'
+import { VideoModal } from './components/VideoModal'
 import { Footer } from './components/Footer'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -78,6 +79,7 @@ setInterval(() => {
   ${Stats()}
   ${CallToAction()}
   ${Contact()}
+   ${VideoModal()}
   ${Footer()}
 `;
 
