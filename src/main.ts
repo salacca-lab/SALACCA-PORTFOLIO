@@ -113,3 +113,12 @@ window.addEventListener("load", () => {
   }, 1200);
 });
 
+document.querySelectorAll(".faq-btn").forEach((button) => {
+  button.addEventListener("click", () => {
+    const content = button.nextElementSibling as HTMLElement;
+    const icon = button.querySelector("span:last-child") as HTMLElement;
+
+    content.classList.toggle("hidden");
+    icon.textContent = content.classList.contains("hidden") ? "+" : "−";
+  });
+});
