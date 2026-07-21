@@ -18,6 +18,7 @@ import { Services } from './components/Services'
 import { Showreel } from './components/Showreel'
 import { Skills } from './components/Skills'
 import { Testimonials } from './components/Testimonials'
+import { Timeline } from './components/Timeline'
 import { About } from './components/About'
 import { Portfolio } from './components/Portfolio'
 import { Audio } from './components/Audio'
@@ -65,6 +66,7 @@ setInterval(() => {
   ${Showreel()} 
   ${Skills()}
   ${Testimonials()}
+  ${Timeline()}
   ${About()}
   ${Portfolio()}
   ${Audio()}
