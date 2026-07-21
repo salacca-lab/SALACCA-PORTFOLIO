@@ -1,3 +1,4 @@
+import { TypingText } from "./TypingText";
 export function Hero() {
   return `
     <section
@@ -31,12 +32,7 @@ export function Hero() {
           SALACCA
         </h1>
 
-        <p class="text-yellow-400 text-xl mt-3 font-semibold">
-          Voice Talent 
-          Public Speaker
-          Content Creator
-          Communication Student
-        </p>
+        ${TypingText()}
 
         <p class="text-gray-300 max-w-xl mt-6 leading-8">
           Crafting memorable voices, digital stories,
