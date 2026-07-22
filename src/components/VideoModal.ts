@@ -1,28 +1,32 @@
 export function VideoModal() {
   return `
 <div
-  id="video-modal"
-  class="fixed inset-0 bg-black/90 hidden items-center justify-center z-[999]"
->
+id="video-modal"
+class="fixed inset-0 hidden items-center justify-center bg-black/90 backdrop-blur-sm z-[9999] transition-all duration-300">
 
-  <button
-    id="close-video"
-    class="absolute top-6 right-8 text-white text-5xl hover:text-yellow-400 transition"
-  >
-    ×
-  </button>
+<button
+id="close-video"
+class="absolute top-6 right-8 text-white text-5xl hover:text-yellow-400 transition">
 
-  <div class="w-[90%] max-w-5xl">
+&times;
 
-    <video
-      id="popup-video"
-      controls
-      class="w-full rounded-2xl shadow-2xl"
-    >
-      <source src="/demo.mp4" type="video/mp4">
-    </video>
+</button>
 
-  </div>
+<div class="w-[92%] max-w-6xl">
+
+<video
+id="popup-video"
+controls
+controlsList="nodownload"
+class="w-full rounded-3xl shadow-2xl bg-black">
+
+<source id="video-source" src="" type="video/mp4">
+
+Browser Anda tidak mendukung video.
+
+</video>
+
+</div>
 
 </div>
 `;

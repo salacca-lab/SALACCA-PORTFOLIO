@@ -16,6 +16,7 @@ import { Hero } from './components/Hero'
 import { FeaturedWorks } from './components/FeaturedWorks'
 import { Services } from './components/Services'
 import { VideoGallery } from './components/Videogallery'
+import { VideoModal } from './components/VideoModal'
 import { Showreel } from './components/Showreel'
 import { Skills } from './components/Skills'
 import { Testimonials } from './components/Testimonials'
@@ -27,7 +28,6 @@ import { FAQ } from './components/FAQ'
 import { Stats } from './components/Stats'
 import { CallToAction } from './components/CallToAction'
 import { Contact } from './components/Contact'
-import { VideoModal } from './components/VideoModal'
 import { Footer } from './components/Footer'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -68,6 +68,7 @@ setInterval(() => {
   ${FeaturedWorks()}
   ${Services()} 
   ${VideoGallery()} 
+   ${VideoModal()}
   ${Showreel()} 
   ${Skills()}
   ${Testimonials()}
@@ -79,7 +80,6 @@ setInterval(() => {
   ${Stats()}
   ${CallToAction()}
   ${Contact()}
-   ${VideoModal()}
   ${Footer()}
 `;
 
@@ -127,4 +127,65 @@ document.querySelectorAll(".faq-btn").forEach((button) => {
     content.classList.toggle("hidden");
     icon.textContent = content.classList.contains("hidden") ? "+" : "−";
   });
+});
+
+const modal = document.getElementById("video-modal")!;
+const popupVideo = document.getElementById("popup-video") as HTMLVideoElement;
+const videoSource = document.getElementById("video-source") as HTMLSourceElement;
+const closeVideo = document.getElementById("close-video")!;
+
+(window as any).openVideo = (src: string) => {
+
+videoSource.src = src;
+
+popupVideo.load();
+
+modal.classList.remove("hidden");
+modal.classList.add("flex");
+
+popupVideo.play();
+
+};
+
+closeVideo.addEventListener("click", () => {
+
+popupVideo.pause();
+
+popupVideo.currentTime = 0;
+
+modal.classList.remove("flex");
+modal.classList.add("hidden");
+
+});
+
+modal.addEventListener("click",(e)=>{
+
+if(e.target===modal){
+
+popupVideo.pause();
+
+popupVideo.currentTime=0;
+
+modal.classList.remove("flex");
+
+modal.classList.add("hidden");
+
+}
+
+});
+
+document.addEventListener("keydown",(e)=>{
+
+if(e.key==="Escape"){
+
+popupVideo.pause();
+
+popupVideo.currentTime=0;
+
+modal.classList.remove("flex");
+
+modal.classList.add("hidden");
+
+}
+
 });
