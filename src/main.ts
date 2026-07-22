@@ -68,7 +68,7 @@ setInterval(() => {
   ${FeaturedWorks()}
   ${Services()} 
   ${VideoGallery()} 
-   ${VideoModal()}
+  ${VideoModal()}
   ${Showreel()} 
   ${Skills()}
   ${Testimonials()}
