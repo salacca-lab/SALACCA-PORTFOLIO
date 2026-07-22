@@ -22,6 +22,7 @@ import { Skills } from './components/Skills'
 import { Testimonials } from './components/Testimonials'
 import { Timeline } from './components/Timeline'
 import { About } from './components/About'
+import { DownloadCV } from './components/DownloadCV'
 import { Portfolio } from './components/Portfolio'
 import { Audio } from './components/Audio'
 import { FAQ } from './components/FAQ'
@@ -74,6 +75,7 @@ setInterval(() => {
   ${Testimonials()}
   ${Timeline()}
   ${About()}
+  ${DownloadCV()}
   ${Portfolio()}
   ${Audio()}
   ${FAQ()}
